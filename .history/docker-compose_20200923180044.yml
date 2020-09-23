@@ -5,10 +5,10 @@ services:
     container_name: project_mysql
     networks:
       default:
-        ipv4_address: 192.168.3.3
+        ipv4_address: 3
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "true"
-      MYSQL_ROOT_PASSWORD: 
+      MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: project
       MYSQL_USER: root
       MYSQL_PASSWORD:
